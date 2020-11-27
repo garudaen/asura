@@ -14,7 +14,9 @@ import (
 // @Author  张振华  2020-10-31
 // @Update  张振华  2020-10-31
 
-var json = jsoniter.ConfigCompatibleWithStandardLibrary //jsoniter 初始化
+//jsoniter 初始化
+var json = jsoniter.ConfigCompatibleWithStandardLibrary
+
 //Auth 授权
 type Auth struct {
 	AppID             string `json:"app_id"`
